@@ -1,5 +1,14 @@
 # ESP8266 DHT11/22 Webserver
 A simple temprature and humidity webserver.<br /><br />
+Configure Your DHT sensor and wich data pin you are using on ESP.<br />
+-#define DHTPIN 2     // what digital pin we're connected to<br />
+-// Uncomment whatever type you're using!<br />
+-#define DHTTYPE DHT11   // DHT 11<br />
+-//#define DHTTYPE DHT22   // DHT 22 <br />
+<br />
+Configure your wifi network here:<br />
+-const char* ssid     = "Your-ssid"; // Your ssid<br />
+-const char* password = "Your-Password"; // Your Password<br /><br />
 Connecting the DHT sensor.<br />
 Pin 1 vcc<br />
 Pin 2 to your DHTPIN on the ESP8266 (in this script pin 2).<br />
