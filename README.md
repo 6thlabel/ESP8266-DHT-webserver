@@ -18,7 +18,7 @@ Pin 4 (on the right) of the sensor to GROUND.<br /><br />
 Connecting the ESP8266 see below.<br />
 Pin 1 GND to GROUND.<br />
 Pin 2 GPIO2 to data pin sensor.<br />
-Pin 3 GPIO0 rogram mode connect to GND in program mode.<br />
+Pin 3 GPIO0 program mode connect to GND in program mode.<br />
 Pin 4 RXD program mode connect to TXD FTDI USB.<br />
 Pin 5 TXD program mode connect to RXD FTDI USB.<br />
 Pin 6 CH_PD connect to 3.3volt MAX!!.<br />
